@@ -17,10 +17,12 @@ div .container{
 	padding: 0px;
 	background-color: #ff0000;
 }
+div .responsive1{float: left;}
+div .responsive2{float:left;}
 div .box{
 	box-sizing: border-box;
 	border: 1px solid black;
-	margin: 10px;
+	margin: 20px;
 	padding: 0px;
 	float: left;
 	background-color: #d3d3d3;
@@ -28,7 +30,7 @@ div .box{
 div .box-Sushi{
 	box-sizing: border-box;
 	border: 1px solid black;
-	margin: 10px;
+	margin: 20px;
 	padding: 0px;
 	float: left;
 	background-color: #d3d3d3;
@@ -80,26 +82,26 @@ div .details{
 	clear: right;
 }
 @media (min-width: 992px){
-	div .box {
+	div .responsive1 {
 		width: 33.33%;
 	}
-	div .box-Sushi{
+	div .responsive2{
 		width: 33.33%;
 	}
 }
 @media (max-width: 767px){
-	div .box{
+	div .responsive1{
 		width: 100%;
 	}
-	div .box-Sushi{
+	div .responsive2{
 		width: 100%;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
-	div .box{
+	div .responsive1{
 		width: 50%;
 	}
-	div .box-Sushi{
+	div .responsive2{
 		width: 100%;
 	}
 }
